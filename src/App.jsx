@@ -1,7 +1,7 @@
 
 import { useRef, useState } from 'react';
 import './App.css'
-import { Card } from './componentes/card/card';
+import { Card } from './componentes/card/Card';
 import { Footer } from './componentes/footer/footer';
 import { Header } from './componentes/header/Header';
 import { Cart } from './componentes/header/navbar/cart/cart';
