@@ -1,0 +1,19 @@
+.x{
+    height: 2rem;
+    margin-right: 34rem;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #fd86e7;
+    cursor: pointer;
+}
+
+@media (max-width: 640px){
+    .x{
+        height: 2rem;
+        margin-right: 17rem;
+        padding-top: 10px;
+        padding-left: 10px;
+        color: #fd86e7;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,51 @@
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.kuro{
+    font-family: 'Concert One', cursive;   
+    font-size: 4rem;
+    color: #0F1014;
+}
+.glam{
+    font-family: 'Yeseva One', cursive;     
+    font-size: 4rem;
+    color: #FF53E0;
+}
+.nome-logo{
+    display: flex;
+    flex-direction: row;
+}
+.img-logo{
+    width: 15rem;
+}
+
+@media (max-width: 640px) {
+
+    .img-logo{
+        width: 8rem;
+    }
+
+    .kuro{
+        font-family: 'Concert One', cursive;   
+        font-size: 2.5rem;
+        color: #0F1014;
+    }
+    .glam{
+        font-family: 'Yeseva One', cursive;     
+        font-size: 2.5rem;
+        color: #FF53E0;
+    }
+
+    .nome-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+}
+    
+

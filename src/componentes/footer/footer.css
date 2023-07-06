@@ -1,0 +1,17 @@
+.footer{
+    background-color: #8B39FF;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a{
+    color: #fd86e7;
+    text-decoration: none;
+    cursor: pointer;
+}

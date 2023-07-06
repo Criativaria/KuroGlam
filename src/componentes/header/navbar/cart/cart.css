@@ -1,0 +1,210 @@
+
+::-webkit-scrollbar-track {
+    background-color: #0F1014;
+}
+::-webkit-scrollbar {
+    width: 20px;
+    background: #e703f7;
+}
+::-webkit-scrollbar-thumb {
+    background: #8B39FF;
+    border-radius: 20px;
+}
+
+.produto{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-block: 2rem;
+    
+}
+.closeCard-mae{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cartFundo{
+    background-color: #0F1014;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.cartSumiu{
+    display: none;
+}
+
+/* carrinho */
+
+.img-titulo{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.img-produto{
+    border-radius: 10px;
+    width: 14rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    
+
+}
+.nome-cart{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+
+.preco-cart{
+    display: flex;
+    justify-content: flex-end;
+    font-size: large;
+    color: aliceblue;
+    padding-inline: 1rem;
+}
+.quantia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.quantidade{
+    color: aliceblue;
+    padding-inline: 1rem;
+}
+
+.button-plus{
+    font-size: 1rem;
+    border-radius: 10px;
+    padding-inline: 1rem;
+    font-weight: bolder;
+    background-color: #fd86e7;
+    color: #8B39FF;
+    border: none;
+    transition: All 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.button-plus:hover{
+    background-color: #8B39FF;
+    color: #fd86e7;
+    border: none;
+}
+
+/* preço total */
+
+.precoTotal{
+    background-color: #fd86e7;
+    padding-block: 2rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 2rem 2rem 0rem 0rem;
+    margin: 1rem 0rem 0rem 1rem;
+    width: 34rem;
+}
+
+.texto-preco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #0F1014;
+}
+
+.button-comprar{
+    display: flex;
+    justify-content: center;
+}
+.cartContent{
+    position: relative;
+    min-height: 100%;
+}
+.todosProdutos{
+    padding-bottom: 10rem;
+}
+
+.AddRemove{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center
+}
+
+.img-div-cart{
+    display: none;        
+}
+
+@media (max-width: 640px){
+
+    /* preço total */
+
+    .precoTotal{
+        background-color: #fd86e7;
+        padding-block: 2rem;
+        position: absolute;
+        bottom: 0;
+        border-radius: 2rem 2rem 0rem 0rem;
+        margin: 0.5rem 0rem 0rem 0.5rem;
+        width: 19rem;
+    }
+
+    .texto-preco{
+        display: flex;
+        flex-direction: column;
+        color: #0F1014;
+        align-items: center
+    }
+
+    /* produtos */
+
+    .preco-quantia{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .produto{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        padding-block: 0rem;
+        
+    }
+
+    .img-titulo{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-produto{
+        border-radius: 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-div-cart{
+        display: flex;
+        width: 10rem;   
+        padding: 15px;
+    }
+    
+    .nome-cart{
+        color: aliceblue;
+        font-size: 1.5rem;
+    }
+
+    .quantia{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}

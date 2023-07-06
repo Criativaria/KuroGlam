@@ -1,0 +1,45 @@
+.header{
+    background-color: #8B39FF;
+    width: 100%;
+    /* height: 256px; */
+}
+
+
+
+.header-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    padding-inline: 20px;
+}
+
+.navbar{
+    display: flex;
+}
+
+
+@media (max-width: 640px) {
+    
+    .navbar{
+       display: block;
+    }
+
+    .header{
+        background-color: #8B39FF;
+        width: 100%;
+        height: 140px;
+        position: fixed;
+        top: 0;
+    }
+    
+    .header-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+    }
+
+
+
+}

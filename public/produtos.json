@@ -1,0 +1,152 @@
+[
+    {
+        "nome":"DIORSKIN",
+        "imagem":"https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dw02bf225c/images/hi-res-BR/3348901383585_-_forever_undercover_031_500px.jpg?sw=556&sh=680&sm=fit",
+        "descricao":"BASE FLUIDA DE COBERTURA COMPLETA DE 24 HORAS",
+        "preco": 355.00,
+        "id":"51b1288e-2955-4aa0-8675-89e7ca2f1722",
+        "categoria":"pele"
+
+    },
+    {
+        "nome":"GUERLAIN",
+        "imagem":"https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dwc5c99eef/images/Color%20BR/guerlain/Iluminadores_Terracota/Flower_Blossom/3346470439931_1.jpg?sw=1200&sh=1200&sm=fit",
+        "descricao":"BLUSH GUERLAIN TERRACOTA FLOWER BLOSSOM",
+        "preco": 339.00,
+        "id":"4bd74624-a0fe-4fc9-8ab7-abf18ec3c735",
+        "categoria":"pele"
+
+    },
+    {
+        "nome":"M·A·C",
+        "imagem":"https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dw55658146/images/Color%20BR/MAC/Squirt/773602692194.jpg?sw=1200&sh=1200&sm=fit",
+        "descricao":"GLOSS LABIAL MAC SQUIRT 3D PUMPLING GLOSS",
+        "preco": 159.00,
+        "id":"71abf6e4-287b-478b-b1e9-a86ed8ba47a9",
+        "categoria":"boca"
+
+    },
+    {
+        "nome":"TOO FACED",
+        "imagem":"https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dwd2423d53/images/Color%20BR/too%20faced/Pinker_Times_Ahead_Collection/Paleta/Pinker%20Times%20Ahead%20Palette%20(651986009541)(2)_1500px.jpg?sw=556&sh=680&sm=fit",
+        "descricao":"PALETA DE SOMBRAS TOO FACED PINKER TIMES",
+        "preco": 429.00,
+        "id":"1e958341-93e9-4d65-aed8-2b0eb83c57b3",
+        "categoria":"olhos"
+    },
+    {
+        "nome":"BIOSSANCE",
+        "imagem":"https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dwbfe62b2b/images/hi-res-BR/PDPs/Biossance/Kits/PDP---Kit-Rose-Oil-+-Eye-Cream_1000px.jpg?sw=400&sh=400&sm=fit",
+        "descricao":"KIT BIOSSANCE ÓLEO FACIAL DE VITAMINA C & CREME PARA OLHOS - 30ML",
+        "preco": 349.00,
+        "id":"99708709-7c58-4071-8609-e227aaf1d0b0",
+        "categoria":"skincare"
+    },
+    {
+        "nome":"Karen Bachini",
+        "imagem":"https://gkay.vteximg.com.br/arquivos/ids/155518/7.898.724.570.557-GLOSS-OIL-1.jpg?v=638059516734870000",
+        "descricao":"Mercúrio Oil Restaurador - Gloss Labial 5,5g",
+        "preco": 45.50,
+        "id":"e08724da-062b-4dbb-b58c-cccdf1c1f084",
+        "categoria":"boca"
+    },
+    {
+        "nome":"KAREN BACHINI",
+        "imagem":"https://gkay.vteximg.com.br/arquivos/ids/155502-1000-1000/7.898.724.570.540-FENIX-1.jpg?v=638059508008400000",
+        "descricao":"BATOM LÍQUIDO FÊNIX MATTE AVELUDADO",
+        "preco":39.90,
+        "id":"ef207f12-a0b1-49a9-aaae-8b7af74992e6",
+        "categoria":"boca"
+    },
+    {
+        "nome":"Melu Rubyrose",
+        "imagem":"https://static.cdnlive.com.br/uploads/724/produto/16855551816485_detalhe.jpg",
+        "descricao":"Lip Tint Pink Day",
+        "preco": 16.80,
+        "id":"8a199525-06cf-4dcc-a4a2-2c38ef862048",
+        "categoria":"boca"
+    },
+    {
+        "nome":"Melu Rubyrose",
+        "imagem":"https://static.cdnlive.com.br/uploads/724/produto/16843356516808_detalhe.jpg",
+        "descricao":"Serum Facial Nutritivo De Coco",
+        "preco":24.18,
+        "id":"d9d70193-2533-446b-8293-c032bac99d03",
+        "categoria":"skincare"
+    },
+    {
+        "nome":"ÁCIDO GLICÓLICO",
+        "imagem":"https://creamy.vtexassets.com/arquivos/ids/156468/01.png?v=1773621298",
+        "descricao":"ÁCIDO GLICÓLICO 10% + NIACINAMIDA + ALFA-BISABOLOL",
+        "preco":69.35,
+        "id":"141edf1f-d643-45d3-8d3f-fb6d7698b77b",
+        "categoria":"skincare"
+    },
+    {
+        "nome":"Neutrogena",
+        "imagem":"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTWI1r7TVJ_p30upxVfk4Wsz_sVzfmXCmxLCUtBUeoj641RlkFEwXGWey_8U0buiNxN4Wee2GEfMVVb14TL8BhNZPbD4UG_lRqBezl8OjDkI1BD3Gb5Q0lKfh8&usqp=CAE",
+        "descricao":"Intensive Matte 3 Em 1 - Hidratante Facial 100g",
+        "preco":48.99,
+        "id":"b5163ef8-5670-42dd-ac72-f60b0b8e474d",
+        "categoria":"skincare"
+    },
+    {
+        "nome":"RK BY KISS",
+        "imagem":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQi9t8_fRM5oL_QkeGYCEg1uCyOJD9dOmtBju3id0le5mOW6MFdC3XcTrgdQ4wzBesuCeMONupsjY-7O6cFo0bKcd0wePmElFRhn1ZceSPL3QoHSalncntbeg&usqp=CAE",
+        "descricao":"DELINEADOR COLORIDO COLOR POP",
+        "preco":39.99,
+        "id":"29f8749f-dea0-4d48-a692-dc693edacbff",
+        "categoria":"olhos"
+    },
+    {
+        "nome":"Ruby Kisses",
+        "imagem":"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR01BQFvM1wuOqhYFvsPV9v7NM9GBrXyvFlYR2-MvlZU9b1C-0RTWkNPLk29fMrOlcCzbZ6fPfhgPxJrZZmRs7k_zcjy4JLjWyZUU8J7dGUtSesSjjLXPDE6w&usqp=CAE",
+        "descricao":"Delineador em Gel",
+        "preco":28.90,
+        "id":"edc958f7-99e2-40bd-8d56-215df514d0f7",
+        "categoria":"olhos"
+    },
+    {
+        "nome":"Quem Disse, Berenice?",
+        "imagem":"https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:best/v1/imagens/products/Q48197/PALETA-MULTIFUNCIONAL-SUPERNOVA_Q48197_COLOR.jpg",
+        "descricao":"Palette Multifuncional Supernova QDB 30,4g",
+        "preco":127.92,
+        "id":"8f986abd-e4a9-4bf8-bb3b-2160a69a433a",
+        "categoria":"olhos"
+    },
+    {
+        "nome":"Mari Maria Makeup",
+        "imagem":"https://www.marimariamakeup.com/arquivos/ids/161795-undefined-undefined/Base-Cover-Up-Matte-laranja-Mari-Maria-MM24.png?v=638104590433200000",
+        "descricao":"Base Cover Up ",
+        "preco":39.90,
+        "id":"20e3ebf8-5948-48a0-a916-2d0ce51b4e70",
+        "categoria":"pele"
+    },
+    {
+        "nome":"Disco Teen",
+        "imagem":"https://cdn.awsli.com.br/600x1000/375/375178/produto/212638030/paleta-infantil-disco-teen-skxgxy.jpg",
+        "descricao":"Kit de maquiagem infantil",
+        "preco":14.90,
+        "id":"824e5b7e-66c5-49ca-b04b-024a4d15012d",
+        "categoria":"olhos"
+    },
+    {
+        "nome":"Base da Viginia",
+        "imagem":"https://wepink.vtexassets.com/arquivos/ids/156704-1200-auto?v=638193314032070000&width=1200&height=auto&aspect=true",
+        "descricao":"Base Líquida Premium - 45ml - Wepink",
+        "preco": 94.00,
+        "id":"7043b408-43de-43da-940c-a4d88cbd8158",
+        "categoria":"pele"
+    },
+    {
+        "nome":"Felca",
+        "imagem":"https://uploads.metropoles.com/wp-content/uploads/2023/05/16152710/Felca-Base-Virginia-2.jpg",
+        "descricao":"felca olhando de longe para verificar se a base da virginia parece mais bonita.",
+        "preco":9e+999,
+        "id":"320320fa-cd47-4177-ab2b-0eacef603956",
+        "categoria":""
+    }
+    
+    
+    
+]

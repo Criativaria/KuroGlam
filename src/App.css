@@ -1,0 +1,11 @@
+body{
+  background-color: #161A20;
+}
+#outer-container{
+  display: none;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

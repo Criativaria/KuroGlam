@@ -1,0 +1,93 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin: 20px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.card{
+    background-color: #fd86e7;
+    width: 18rem;
+    border-radius: 1rem;
+    transition: All 0.3s ease-in-out;
+   
+}
+
+.img-texto{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome{
+    color: #161A20;
+    text-align: center;
+    width: 18rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.img_produto{
+    width: 14rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    
+}
+
+.descricao{
+    display: flex;
+    padding-inline: 2rem;
+    text-transform: lowercase;
+}
+
+.preco-botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.botao{
+    border-radius: 10px;
+    padding-inline: 1rem;
+    font-weight: bolder;
+    background-color: #fd86e7;
+    color: #8B39FF;
+    border: none;
+    transition: All 0.3s ease-in-out;
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: #8B39FF;
+    color: #fd86e7;
+}
+
+@media (max-width: 640px){
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15rem;
+    }
+
+    .card{
+        background-color: #fd86e7;
+        width: 18rem;
+        border-radius: 1rem;
+        transition: All 0.3s ease-in-out;
+    }
+
+}
