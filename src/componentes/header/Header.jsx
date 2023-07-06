@@ -1,6 +1,6 @@
 import Logo from "./logo/Logo";
 import './Header.css';
-import Navbar from "./navbar/NavBar";
+import Navbar from "./navbar/Navbar";
 
 export function Header(props) {
 
