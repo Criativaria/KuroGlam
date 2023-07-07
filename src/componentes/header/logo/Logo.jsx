@@ -1,5 +1,5 @@
 import './Logo.css'
-import logo from "../imgs/kuromi.png";
+import { logo } from "../imgs/kuromi.png";
 export default function Logo() {
 
 
