@@ -1,5 +1,5 @@
 import './cart.css';
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { CloseCard } from './x/closecard';
 
 
