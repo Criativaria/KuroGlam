@@ -1,7 +1,7 @@
 import './navbar.css';
 import { BsCart3 } from 'react-icons/bs';
 import React, { useState } from "react";
-
+import hamburguerImg from '/src/assets/bars-solid.svg';
 
 export default function Navbar(props) {
 
@@ -37,7 +37,7 @@ export default function Navbar(props) {
 
             <div className='img-div' onClick={() => hamburguerOnOff()}>
 
-                <img src="src\assets\bars-solid.svg" alt="" className='hamburguer' />
+                <img src={hamburguerImg} alt="" className='hamburguer' />
 
             </div>
         </>

@@ -126,7 +126,7 @@
     min-height: 100%;
 }
 .todosProdutos{
-    padding-bottom: 10rem;
+    padding-bottom: 15rem;
 }
 
 .AddRemove{
@@ -149,7 +149,8 @@
         bottom: 0;
         border-radius: 2rem 2rem 0rem 0rem;
         margin: 0.5rem 0rem 0rem 0.5rem;
-        width: 19rem;
+        width: 100%;
+
     }
 
     .texto-preco{
