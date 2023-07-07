@@ -1,5 +1,5 @@
 import './Logo.css'
-import { logo } from "../imgs/kuromi.png";
+import logoimg from "/imgs/kuromi.png";
 export default function Logo() {
 
 
@@ -9,7 +9,7 @@ export default function Logo() {
         <>
             <div className='logo'>
 
-                <img src={logo} className="img-logo" />
+                <img src={logoimg} className="img-logo" />
 
                 <div className="nome-logo">
                     <p className="kuro">Kuro</p>
