@@ -1,21 +1,10 @@
 import './card.css';
-import React from 'react';
-import { useEffect, useState } from 'react';
-import productJson from '/src/assets/produtos.json'
 
 
 export function Card(props) {
 
 
 
-    useEffect(() => processarProdutos, []); //chamou a função processarProdutos
-
-    async function processarProdutos() {
-
-        props.setProducts(productJson);
-
-
-    }
 
     function filterCategory() {
 

@@ -1,14 +1,15 @@
 
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import './App.css'
 import { Card } from './componentes/card/Card';
 import { Footer } from './componentes/footer/footer';
 import { Header } from './componentes/header/Header';
 import { Cart } from './componentes/header/navbar/cart/cart';
+import products from './assets/produtos.json';
 
 
 function App() {
-  const [products, setProducts] = useState([]);
+
 
   const [category, setCategory] = useState("");
 
@@ -86,7 +87,7 @@ function App() {
 
       <Cart cartProducts={cartProducts} setcartProducts={setcartProducts} products={products} AddProductToCart={AddProductToCart} RemoveProductCart={RemoveProductCart} style={style} changeStyle={changeStyle} />
 
-      <Card category={category} AddProductToCart={AddProductToCart} setProducts={setProducts} products={products} />
+      <Card category={category} AddProductToCart={AddProductToCart} products={products} />
 
       <Footer />
     </>
