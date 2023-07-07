@@ -10,7 +10,7 @@ export function Card(props) {
     useEffect(() => processarProdutos, []); //chamou a função processarProdutos
 
     async function processarProdutos() {
-        const resposta = await fetch("https://json-produtos-kuroglam.vercel.app/db.json");
+        const resposta = await fetch("https://json-produtos-kuroglam.vercel.app/produtos");
 
         const dados = await resposta.json();
 
