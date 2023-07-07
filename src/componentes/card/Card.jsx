@@ -1,6 +1,7 @@
 import './card.css';
 import React from 'react';
 import { useEffect, useState } from 'react';
+import productJson from '/src/assets/produtos.json'
 
 
 export function Card(props) {
@@ -10,11 +11,8 @@ export function Card(props) {
     useEffect(() => processarProdutos, []); //chamou a função processarProdutos
 
     async function processarProdutos() {
-        const resposta = await fetch("https://json-produtos-kuroglam.vercel.app/produtos");
 
-        const dados = await resposta.json();
-
-        props.setProducts(dados);
+        props.setProducts(productJson);
 
 
     }
